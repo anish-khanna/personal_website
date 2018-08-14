@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Testing...</title>
+    <link rel="icon" type="image/jpg" href="images/prof%20pic.jpg">
+    <link rel="stylesheet" href="assets/fontawesome-free-5.2.0-web/css/all.min.css">
+    <script src="assets/js/lib/plotly-latest.min.js"></script>
+    <script src="assets/js/lib/jquery-3.3.1.min.js"></script>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <script src="assets/js/lib/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/functions.js"></script>
+    <link rel="stylesheet" href="/assets/css/index.css">
+</head>
+    
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-expand-med navbar-expand-sm navbar-custom">
+        <a class="navbar-brand" href="#Intro">Anish</a>
+        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link scroll-link" id="AboutMeNav" href="#Intro">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link scroll-link" id="VSNNav" href="#VSN">vsn</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link scroll-link" id="StocksNav" href="#Stocks">Stocks</a>
+                </li>
+             </ul>
+        </div>
+    </nav>
+    
+    <div class="container section" id="Intro">
+        <div class="row no-gutters">
+            <div class="col mx-auto text-center">
+                <img src="images/prof pic.jpg" id="displayPic" alt="Profile Picture">
+                <h1>
+                    Hi! I'm Anish Khanna!
+                </h1>
+                <p>
+                    I'm a Computer Engineering student at the University of Waterloo
+                </p>
+            </div>
+        </div>
+        <div class="row no-gutters">
+            <div class = "col-sm text-center" style="margin-right: 5px">
+                <a href="mailto:anish.khanna99@gmail.com" class="btn btn-default btn-block" id="email-btn"><i class="fas fa-envelope fa-lg"></i>Email Me!</a>
+            </div>
+            <div class = "col-sm text-center" style="margin-right: 5px, margin-left: 5px">
+                <a target="_blank" href= "http://www.linkedin.com/in/anish-khanna99" class="btn btn-default btn-block" id="linkedin-btn"><i class="fab fa-linkedin fa-lg"></i>Connect on LinkedIn!</a>
+            </div>
+            <div class = "col-sm text-center" style="margin-left: 5px">
+                <a target="_blank" href= "http://www.github.com/anish-khanna" class="btn btn-default btn-block" id="github-btn"><i class="fab fa-github fa-lg"></i>Check out my Github!</a>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="VSN">
+        <div class="row no-gutters">
+            <div class="col mx-auto text-center">
+                <img id="vsnHeader" src="images/vsn%20logo%20no%20bg.png">
+            </div>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-6 mx-auto text-center">
+                <p>
+                    vsn is a streetwear and art collective started by myself and a friend. vsn follows a darker tone, juxtaposing the literal meaning of the word and the brand's art.
+                </p>
+                <p>
+                    The work here serves as a platform for creative ideas to be brought out through art and fashion.
+                </p>
+            </div>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-md mx-auto text-center" style="margin-top: auto; margin-bottom: auto">
+                <img src="images/scene.png" class="vsnImg img-fluid">
+            </div>
+            <div class="col-md mx-auto text-center">
+                <img src="images/pearl earring.png" class="vsnImg img-fluid">
+            </div>
+        </div>
+    </div>
+    <div class = "section" id="Stocks">
+        <div class="row">
+            <div class="col mx-auto text-center">
+                <h1>
+                    Stock Market Performance Predictor
+                </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-8 mx-auto text-center">
+                <p>
+                    This is a little project that uses Machine Learning in the form of a Recurrent Neural Network with Long-Short Term Memory to predict the future performance of stocks.
+                </p>
+                <p>
+                    Play around with the chart and maybe even make your next big trade with its help.
+                </p>
+            </div>
+        </div>
+        <div id="StocksGraph">
+        </div>
+        <div class="col-12 mx-auto">
+            <div class="text-center">
+                <input type="text" placeholder="Input a Stock Code" id="StocksInput">
+            </div>
+        </div>
+    </div>
+        
+</body>
+
+</html>
