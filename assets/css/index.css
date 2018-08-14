@@ -1,0 +1,101 @@
+body{
+    padding-top: 50px;
+}
+
+.navbar-custom {
+    color: white;
+    background-color: rgb(35, 35, 35);
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color: lightgray;
+}
+
+.navbar-brand{
+    color: white;
+}
+
+.navbar-brand:hover{
+    color: lightgray;
+}
+
+.navbar-fixed-top.scrolled {
+  background-color: grey !important;
+  transition: background-color 200ms linear;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#displayPic{
+    border-radius: 50%;
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+.fa-lg{
+    padding: 0px 10px;
+}
+
+#Stocks{
+    padding: 50px;
+}
+
+#Intro{
+    padding-top: 50px;
+}
+
+#StocksInput{
+    margin: 20px;
+}
+
+#VSN{
+    background-color: black;
+    color: white;
+    padding: 50px 0px;
+}
+
+#vsnHeader{
+    padding-bottom: 25px;
+    max-width: 30%;
+    height: auto;
+}
+
+.vsnImg{
+    background-color: white;
+    max-width: 75%;
+    height: auto;
+    margin: 10px 0px;
+    border: 5px solid darkred;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: transform 150ms ease-in-out;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.vsnImg:hover{
+    -webkit-filter: grayscale(0%);
+    filter: none;
+}
+
+.btn-default{
+    border: 2px lightsteelblue solid;
+    padding: 20px;
+    color: white;
+    background-color: slategray;
+    margin-bottom: 50px;
+    font-size: 1.5rem;
+}
+
+.btn-default:hover{
+    color:cornflowerblue;
+    background-color: lightgrey;
+    border-color: black;
+}
